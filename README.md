@@ -60,6 +60,15 @@
 ```
 ### 2、下载及安装
 
+*	下载 
+
+`git clone https://github.com/missing-cn/nginx_monitor_for_falcon.git`
+
+*	安装
+
+放到指定目录即可运行。
+
+
 ### 3、配置
 
 目录内的config.conf包含下列变量，可以自行调整，脚本执行时自动读入变量。
