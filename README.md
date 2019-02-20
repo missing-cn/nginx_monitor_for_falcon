@@ -127,7 +127,7 @@ timestamp=`date +%s`
 ##                      '"$http_user_agent" "$http_x_forwarded_for" '
 ##		      '"rt=$request_time" "uct=$upstream_connect_time" "uht=$upstream_header_time" "urt=$upstream_response_time"';
 ## example log
-## 11.94.240.161 - - [30/Jan/2019:10:24:36 +0800] "k1service.bobowa.com" "POST /carbox/device/flow/upload HTTP/1.1" 200 64 "-" "okhttp/3.4.1" "-" "rt=0.024" "uct=0.001" "uht=0.024" "urt=0.024"
+## 11.94.24.11 - - [30/Jan/2019:10:24:36 +0800] "k1.b.com" "POST /car/device/flow/upload HTTP/1.1" 200 64 "-" "okhttp/3.4.1" "-" "rt=0.024" "uct=0.001" "uht=0.024" "urt=0.024"
 ## FPAT="([^ ]+)|(\"[^\"]+\")" 将log 字段设置为空格或者以""包含起来的字符分割
 BEGIN{
   FPAT="([^ ]+)|(\"[^\"]+\")"
